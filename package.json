@@ -3,6 +3,7 @@
     "version": "0.2.0",
     "description": "Load svg files as preact components.",
     "main": "src/index.js",
+    "types": "src/index.d.ts",
     "repository": "https://github.com/VuexLtd/preact-svg-loader",
     "author": "James Birtles <james.birtles@vuex.io>",
     "license": "MIT",
@@ -13,12 +14,13 @@
         "prepublishOnly": "npm run test"
     },
     "dependencies": {
-        "loader-utils": "^1.1.0",
-        "htmlparser": "^1.7.7"
+        "htmlparser": "^1.7.7",
+        "loader-utils": "^1.1.0"
     },
     "devDependencies": {
         "chai": "^4.1.0",
         "eslint": "^4.2.0",
-        "mocha": "^3.4.2"
+        "mocha": "^3.4.2",
+        "preact": "^10.23.2"
     }
 }
